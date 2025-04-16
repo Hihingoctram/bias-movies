@@ -1,0 +1,43 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(16, 15, 15);
+  border: 2px solid rgb(5, 5, 5);
+  border-radius: 5px;
+  color: #fff;
+  width: 1200px; /* Giữ nguyên khung cố định */
+  margin: -15px auto 0 auto; /* Căn giữa */
+  box-sizing: border-box;
+  margin-left: -16px;
+}
+
+
+  .logo img {
+    height: 73px;
+    width: 105px;
+  }
+  
+  .search-box,
+  .category-box,
+  .rating-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search-box input,
+  .rating-box input,
+  .category-box select {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
