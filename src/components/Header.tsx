@@ -11,13 +11,13 @@ const Header = () => {
       </div>
 
       {/* Tìm kiếm */}
-      <div className='search-box'>
+      {/* <div className='search-box'>
         <label htmlFor='search'>Tìm kiếm:</label>
         <input type='text' id='search' placeholder='Nhập tên phim...' />
         <nav aria-label='Search'>
           <Link to='/seacher'><Search /></Link>  
         </nav>
-      </div>
+      </div> */}
 
       {/* Chọn thể loại */}
       <div className='category-box'>
@@ -35,7 +35,15 @@ const Header = () => {
         <label htmlFor='rating'>Đánh giá:</label>
         <input type='number' id='rating' min='1' max='5' step='0.5' placeholder='4 sao' />
       </div>
+      <div className='search-box'>
+        <label htmlFor='search'>Tìm kiếm:</label>
+        <input type='text' id='search' placeholder='Nhập tên phim...' />
+        <nav aria-label='Search'>
+          <Link to='/seacher'><Search /></Link>  
+        </nav>
+      </div>
     </div>
+    
   );
 };
 

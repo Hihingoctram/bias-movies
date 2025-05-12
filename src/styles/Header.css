@@ -26,7 +26,9 @@
     align-items: center;
     gap: 5px;
   }
-  
+  .Search{
+    color: #575555;
+  }
   .search-box input,
   .rating-box input,
   .category-box select {
